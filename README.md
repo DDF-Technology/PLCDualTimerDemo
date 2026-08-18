@@ -57,6 +57,20 @@ e comportamento al riavvio seguendo [`docs/TEST_CHECKLIST.md`](docs/TEST_CHECKLI
 Il pacchetto deve quindi essere considerato materiale didattico **non validato per uso produttivo**.
 L'utilizzatore è responsabile della revisione e del collaudo nel proprio ambiente.
 
+## Download
+
+La prerelease pubblica più recente è
+[`v1.0.0-rc1`](https://github.com/DDF-Technology/PLCDualTimerDemo/releases/tag/v1.0.0-rc1).
+Scaricare sia l'archivio TIA Portal sia il relativo file `.sha256`, quindi verificare l'integrità
+prima dell'apertura:
+
+```powershell
+Get-FileHash -Algorithm SHA256 .\PLCDualTimerDemo-1.0.0-rc1-tia-v18.zip
+```
+
+Il digest atteso dello ZIP è
+`565e73b0b3b975d6421ab2ea8bac1ab2d49b317125236a27cee18ecfaec8e86d`.
+
 ## Licenza
 
 Copyright © 2026 Fabio De Deo — [www.ddf.technology](https://www.ddf.technology/).
